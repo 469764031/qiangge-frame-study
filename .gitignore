@@ -1,0 +1,13 @@
+/.idea
+/.idea/*
+/*/.idea/*
+/*.iml
+/*/*.iml
+/target/*
+/target
+/*/target/*
+/*/target
+/static/js/node_modules/*
+/static/js/*.log
+#/static/js/build/*
+/yarn.lock
