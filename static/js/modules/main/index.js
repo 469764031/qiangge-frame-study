@@ -4,8 +4,12 @@
  */
 import React, {Component} from 'react';
 import appStore from './store';
-import {msg, connectToStore} from 'iflux';
 import {Table} from 'antd';
+
+//import {msg, connectToStore} from 'iflux';
+import msg from "../util/msg";
+import connectToStore from "../util/connect-to-store";
+
 
 
 class Main extends Component {

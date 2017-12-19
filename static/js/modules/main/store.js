@@ -1,9 +1,11 @@
 /**
  * Created by lingqiang on 2017/12/19.
  */
-import {msg, Store} from 'iflux';
+//import {msg, Store} from 'iflux';
 import Mock, {Random} from 'mockjs';
 import Immutable from 'immutable';
+import msg from "../util/msg";
+import Store from "../util/store";
 
 var appStore = Store({
   data: Immutable.List(),
